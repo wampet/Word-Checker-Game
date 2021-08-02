@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header id="wordBeater">
+           <h1> WordBeater</h1>
+    
+</header>
+    <div id="containerLarge">
+
+        
+        <div id="timearea">
+            <p>Type the given word within <span class="text-success" id="seconds">8</span> seconds:</p>
+        </div>
+        <p id="current-word">hello</p>
+
+    <div>
+        <input type="text" id="word-input" placeholder="Start typing..."autofocus                 >
+    </div>
+    <h4 class="mt-3" id="message"></h4>
+   <div id="timediv">
+    <div id="die">
+        Time Left:
+        <span id="time">0</span>
+    </div>
+    <div>
+        Score:
+        <span id="score">0</span>
+    </div>
+   </div>
+    <div id="instructions">
+        <div id="headT">Instructions</div>
+        <div>
+            Type each word in the given amount of seconds to score.To play 
+            again, just type the current word. Your score will restore.
+            The game automatically starts counting when you refresh your browser
+        </div>
+    </div>
+
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
